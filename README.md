@@ -1,6 +1,9 @@
 My set of patched formulas for homebrew
 ============
 
+Install with `brew install
+https://raw.github.com/ryba-xek/homebrew-patched-formulas/master/phpsh.rb`
+
 Cgminer
 ----------
 `cgminer.rb`
@@ -11,13 +14,14 @@ Midnight commander
 ---------------------
 `midnight-commander.rb`
 
-Stores config in `~/.mc` instead of `~/.local`.
+* Stores config in `~/.mc` instead of `~/.local`.
 
 phpsh
 --------
 `phpsh.rb`
 
-Doesn't install python from homebrew.
+* Readline .inputrc fixed.
+* Doesn't install python from homebrew.
 
 Currently requires smth like:
     
